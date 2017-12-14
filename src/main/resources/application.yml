@@ -1,0 +1,23 @@
+#
+#
+#spring:
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+#      discovery:
+#        healthCheckPath: /health
+#        healthCheckInterval: 2s
+#        instance-id: consul-miya-${random.value}
+#        service-name: okokoko
+#        tags:
+#              - test
+#              - dev
+#        hostname: localhost
+#        port: ${server.port}
+#        ip-address: 192.182.12.12
+#        prefer-ip-address: false
+#  application:
+#    name: consul-miya22222
+#server:
+#  port: 9955
